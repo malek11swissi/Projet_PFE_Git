@@ -22,4 +22,6 @@ public class Forfait {
     private String NomForfait;
     @Column(name="Prix")
     private Long Prix;
+    @Column(name="description")
+    private Long Description;
 }
